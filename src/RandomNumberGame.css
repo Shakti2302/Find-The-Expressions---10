@@ -1,0 +1,61 @@
+/* RandomNumberGame.css */
+
+.random-number-game-container {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.random-number-game-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.random-number-game-numbers {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.random-number-game-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.random-number-game-result {
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.random-number-game-buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 70px;
+  gap: 15px;
+}
+
+.random-number-game-button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.random-number-game-button:hover {
+  background-color: #45a049;
+}
+
+.random-number-game-error {
+  color: red;
+  font-weight: bold;
+}
